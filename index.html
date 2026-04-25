@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Qual seria seu inicial em Kanto?</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+<div id="inicio">
+  <div class="container">
+    <h1>Bem-vindo ao Mundo Pokémon</h1>
+    <p>O mundo é habitado por diversas criaturas chamadas pokémon.</p>
+    <p>Nesse universo você pode capturar essas criaturas, batalhar com outros treinadores e se aventurar por todo o continente de Kanto.</p>
+    <p>Antes de começar sua jornada pelo continente, é necessário você ter um pokémon inicial 
+    para te acompanhar ao longo da sua jornada.</p>
+    <p>Dentre as opções você pode ter Bulbasaur, Charmander ou Squirtle como seus companheiros de viagem, mas qual deles se adequa melhor a você?</p>
+    <p>Descubra qual Pokémon inicial combina com você!</p>
+    <button id="botaoiniciar">Começar Quiz</button>
+  </div>
+</div>
+
+<div id="quiz" class="hidden">
+  <div class="container">
+    <h2 id="pergunta"></h2>
+    <div id="opcoes"></div>
+    <button id="botaoproximo">Próxima</button>
+  </div>
+</div>
+
+<div id="resultado" class="hidden">
+  <div class="container">
+    <h2 id="nomePersonagem"></h2>
+    <p id="tipagem"></p>
+    <img id="imagemPersonagem" width="200">
+    <p id="descricao"></p>
+    <p id="pontuacao"></p>
+    <button onclick="location.reload()">Recomeçar</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
